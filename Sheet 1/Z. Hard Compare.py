@@ -1,6 +1,8 @@
-a,b,c,d = map(int, input().split())
+import math
 
-if a**b > c**d:
+A, B, C, D = map(int, input().split())
+
+if B * math.log(A) > D * math.log(C):
     print("YES")
 else:
     print("NO")
